@@ -17,15 +17,6 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 - <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
-<a href="https://drive.google.com/file/d/1uCxoX4KH4VHQnJwIdMl1H1Zu7jlkE_vg/view" alt=""></a>
-<a href="https://drive.google.com/file/d/1uCxoX4KH4VHQnJwIdMl1H1Zu7jlkE_vg/view" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+<embed src a href="https://drive.google.com/file/d/1uCxoX4KH4VHQnJwIdMl1H1Zu7jlkE_vg/view" alt=""></a> </embed>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+
