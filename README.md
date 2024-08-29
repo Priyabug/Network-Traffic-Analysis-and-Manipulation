@@ -34,6 +34,6 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 
 - <b>Task Set 2: Writing C Programs for Sniffing and Spoofing:</b>
  
-      1. Tasks in this set involve writing programs in C to manually implement packet sniffing and spoofing, allowing students to understand the low-level<br>
-         implementation details of these techniques.
+      Tasks in this set involve writing programs in C to manually implement packet sniffing and spoofing, allowing students to understand the low-level<br>
+      implementation details of these techniques.
 
