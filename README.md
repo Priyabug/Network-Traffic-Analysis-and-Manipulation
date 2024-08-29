@@ -28,9 +28,9 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 <b>Task Set 1: Using Scapy for Sniffing and Spoofing:</b>
 
 Task 1.1: Sniffing packets with Scapy, including setting filters to capture specific types of packets (like ICMP or TCP).<br>
-Task 1.2: Spoofing ICMP packets with arbitrary source IP addresses using Scapy.
-Task 1.3: Implementing a traceroute-like tool using Scapy by manipulating the TTL (Time-To-Live) field in IP packets.
-Task 1.4: Combining sniffing and spoofing techniques to create a program that automatically sends spoofed ICMP replies.
+Task 1.2: Spoofing ICMP packets with arbitrary source IP addresses using Scapy.<br>
+Task 1.3: Implementing a traceroute-like tool using Scapy by manipulating the TTL (Time-To-Live) field in IP packets.<br>
+Task 1.4: Combining sniffing and spoofing techniques to create a program that automatically sends spoofed ICMP replies.<br>
 
 <b>Task Set 2: Writing C Programs for Sniffing and Spoofing:</b>
 
