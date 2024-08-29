@@ -19,10 +19,10 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 <h2> Lab topics covered</h2>
 Lab Topics Covered:
 
-<b>Basics of packet sniffing and spoofing.</b>
-<b>Using the pcap library and Scapy for packet sniffing.</b>
-<b>Using raw sockets and Scapy for packet spoofing.</b>
-<b>Manipulating packets using Scapy.</b>
+- <b>Basics of packet sniffing and spoofing.</b>
+- <b>Using the pcap library and Scapy for packet sniffing.</b>
+- <b>Using raw sockets and Scapy for packet spoofing.</b>
+- <b>Manipulating packets using Scapy.</b>
 
 <h2>Program walk-through:</h2>
 <embed src a href="https://drive.google.com/file/d/1uCxoX4KH4VHQnJwIdMl1H1Zu7jlkE_vg/view" alt=""></a> </embed>
