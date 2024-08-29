@@ -17,7 +17,6 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 - <b>Windows 10</b> (21H2)
 
 <h2> Lab topics covered</h2>
-Lab Topics Covered:
 
 - <b>Basics of packet sniffing and spoofing.</b>
 - <b>Using the pcap library and Scapy for packet sniffing.</b>
