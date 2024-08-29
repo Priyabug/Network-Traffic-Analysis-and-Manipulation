@@ -32,7 +32,7 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
      3. Implementing a traceroute-like tool using Scapy by manipulating the TTL (Time-To-Live) field in IP packets.<br>
      4. Combining sniffing and spoofing techniques to create a program that automatically sends spoofed ICMP replies.<br>
 
-- <b>Task Set 2: Writing C Programs for Sniffing and Spoofing:</b>
+- <b> Writing C Programs for Sniffing and Spoofing:</b>
  
       Tasks in this set involve writing programs in C to manually implement packet sniffing and spoofing, allowing students to understand the low-level<br>
       implementation details of these techniques.
