@@ -24,7 +24,7 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 - <b>Manipulating packets using Scapy.</b>
 
 <h2>Program walk-through:</h2>
-<embed src a href="https://drive.google.com/file/d/1uCxoX4KH4VHQnJwIdMl1H1Zu7jlkE_vg/view" alt=""></a> </embed>
+
 - <b>Task Set 1: Using Scapy for Sniffing and Spoofing:</b>
 
      Task 1.1: Sniffing packets with Scapy, including setting filters to capture specific types of packets (like ICMP or TCP).<br>
