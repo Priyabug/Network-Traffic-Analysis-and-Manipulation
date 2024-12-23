@@ -23,7 +23,7 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 - <b>Using raw sockets and Scapy for packet spoofing.</b>
 - <b>Manipulating packets using Scapy.</b>
 
-<h2>6 shell scripts make life easier and avoid typing long commands</h2>
+<h2>Shell scripts commands</h2>
 
 - `./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process, e.g. `./dc-build.sh --no-cache`.
 - `./dc-up.sh` - Start the docker containers in the foreground.
