@@ -14,7 +14,7 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 11 Home</b> (21H2)
 
 <h2> Lab topics covered</h2>
 
