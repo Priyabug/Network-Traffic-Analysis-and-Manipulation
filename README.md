@@ -10,7 +10,7 @@ Two key ideas in network security are packet sniffing and spoofing, which pose s
 <h2>Languages and Utilities Used</h2>
 
 - <b>Python</b> 
-- <b>Ununtu 20.04 VM</b>
+- <b>Ubuntu 20.04 VM</b>
 
 <h2>Environments Used </h2>
 
