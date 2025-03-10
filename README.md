@@ -1,48 +1,58 @@
-<h1>Network-Traffic-Analysis-and-Manipulation</h1>
+# Network Traffic Analysis and Manipulation  
 
+## 📌 Description  
+Two key ideas in network security are **packet sniffing** and **spoofing**, which pose serious risks to network communication. Understanding these threats is essential to comprehending **network security protocols**.  
 
+Various tools exist for packet sniffing and spoofing, including:  
+- **Wireshark**  
+- **Tcpdump**  
+- **Netwox**  
+- **Scapy**  
 
-<h2>Description</h2>
-Two key ideas in network security are packet sniffing and spoofing, which pose serious risks to network communication. Understanding these two risks is necessary in order to comprehend networking security protocols. Numerous tools exist for packet sniffing and spoofing, including Wireshark, Tcpdump, Netwox, Scapy, and others. Both attackers and security specialists frequently utilize some of these techniques. While knowing how to use these tools is vital, understanding how they operate—that is, how software implements packet sniffing and spoofing.
-<br />
+Both **attackers** and **security specialists** frequently utilize these techniques. While knowing how to use these tools is vital, understanding their inner workings—how software implements packet sniffing and spoofing—is even more crucial.  
 
+---
 
-<h2>Languages and Utilities Used</h2>
+## 🛠️ Languages and Utilities Used  
+- **Python**  
+- **Ubuntu 20.04 VM**  
 
-- <b>Python</b> 
-- <b>Ubuntu 20.04 VM</b>
+## 💻 Environments Used  
+- **Windows 11 Home (21H2)**  
 
-<h2>Environments Used </h2>
+---
 
-- <b>Windows 11 Home</b> (21H2)
+## 📚 Lab Topics Covered  
+✔️ Basics of **packet sniffing** and **spoofing**  
+✔️ Using the **pcap** library and **Scapy** for packet sniffing  
+✔️ Using **raw sockets** and **Scapy** for packet spoofing  
+✔️ Manipulating packets using **Scapy**  
 
-<h2> Lab topics covered</h2>
+---
 
-- <b>Basics of packet sniffing and spoofing.</b>
-- <b>Using the pcap library and Scapy for packet sniffing.</b>
-- <b>Using raw sockets and Scapy for packet spoofing.</b>
-- <b>Manipulating packets using Scapy.</b>
+## ⚙️ Shell Script Commands  
+| Command | Description |
+|---------|------------|
+| `./dc-build.sh` | Builds the Docker images. Can take an additional parameter, e.g., `./dc-build.sh --no-cache` |
+| `./dc-up.sh` | Starts the Docker containers in the foreground |
+| `./dc-up-d.sh` | Starts the Docker containers in the background |
+| `./dc-stop.sh` | Stops the Docker containers, with optional parameters |
+| `./dc-down.sh` | Stops and removes the Docker containers, with optional parameters |
+| `./dc-unittest.sh` | Utility script to aid in running a specific unit test class |
 
-<h2>Shell scripts commands</h2>
+---
 
-- `./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process, e.g. `./dc-build.sh --no-cache`.
-- `./dc-up.sh` - Start the docker containers in the foreground.
-- `./dc-up-d.sh` - Start the docker containers in the background.
-- `./dc-stop.sh` - Stop the docker containers, it can take one additional parameter to be used in the stop process.
-- `./dc-down.sh` - Stop and remove the docker containers, it can take one additional parameter to be used in the stop and remove process.
-- `./dc-unittest.sh` - Utility script to aid in running a specific unit test class.
+## 🔍 Program Walk-through  
 
-<h2>Program walk-through:</h2>
+### **Using Scapy for Sniffing and Spoofing**  
+🔹 Sniffing packets with **Scapy**, including setting filters to capture specific types of packets (e.g., **ICMP** or **TCP**)  
+🔹 Spoofing **ICMP** packets with arbitrary source IP addresses using **Scapy**  
+🔹 Implementing a **traceroute-like tool** using **Scapy** by manipulating the **TTL (Time-To-Live)** field in IP packets  
+🔹 Combining **sniffing and spoofing** techniques to create a program that **automatically sends spoofed ICMP replies**  
 
-- <b> Using Scapy for Sniffing and Spoofing:</b>
+### **Writing C Programs for Sniffing and Spoofing**  
+📌 Writing **C programs** to manually implement packet sniffing and spoofing, helping to understand the **low-level implementation details** of these techniques  
 
-     1. Sniffing packets with Scapy, including setting filters to capture specific types of packets (like ICMP or TCP).<br>
-     2. Spoofing ICMP packets with arbitrary source IP addresses using Scapy.<br>
-     3. Implementing a traceroute-like tool using Scapy by manipulating the TTL (Time-To-Live) field in IP packets.<br>
-     4. Combining sniffing and spoofing techniques to create a program that automatically sends spoofed ICMP replies.<br>
+---
 
-- <b> Writing C Programs for Sniffing and Spoofing:</b>
- 
-     1. Tasks in this set involve writing programs in C to manually implement packet sniffing and spoofing, allowing students to understand the
-          low-level implementation details of these techniques.<br>
-
+🚀 **This project provides hands-on experience with core networking security concepts, leveraging both Python and C for deep technical insights into packet analysis and manipulation.**  
